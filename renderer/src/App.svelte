@@ -396,7 +396,7 @@
                               <div style="margin-left:8px;color: #737373;">
                                 วันหมดอายุ (คะแนนแลกของรางวัล):
                                 <div class="ms-5">
-                                  {redeemable_points} คะแนน หมดอายุ - 30/12/2023
+                                  {redeemable_points} คะแนน หมดอายุ - {expire_date_display}
                                 </div>
                               </div>
                             </div>
