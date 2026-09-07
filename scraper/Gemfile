@@ -3,5 +3,5 @@
 source "https://rubygems.org"
 
 gem 'debug'
-gem 'playwright-ruby-client', '~> 1.52', require: "playwright"
+gem 'playwright-ruby-client', require: "playwright"
 gem 'rubocop'
