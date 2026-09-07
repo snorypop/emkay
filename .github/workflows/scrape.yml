@@ -33,8 +33,11 @@ jobs:
         with:
           node-version: 20
           
-      - name: Setup Playwright
+      - name: Setup Playwright Dependencies
         run: npx playwright@1.62.0 install-deps
+
+      - name: Setup Playwright
+        run: npx playwright@1.62.0 install
 
       - name: Scrape
         env:
