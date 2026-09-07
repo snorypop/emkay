@@ -36,7 +36,7 @@ jobs:
         with:
           node-version: 20
 
-       - name: Setup Playwright Dependencies
+      - name: Setup Playwright Dependencies
         run: npm install
           
       - name: Setup Playwright
