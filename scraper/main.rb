@@ -5,7 +5,7 @@ require 'date'
 
 # The MKONE card number. The old MK site still reports the legacy card
 # number, so the scraper writes this fixed value instead of the scraped one.
-MKONE_CARD_NUMBER = '1126082006025800'
+MKONE_CARD_NUMBER = '112608200731440'
 
 def login!(page)
   puts 'Open login page'
