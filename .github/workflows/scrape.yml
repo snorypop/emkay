@@ -38,8 +38,8 @@ jobs:
 
       - name: Setup Playwright
         run: 
-        npm install 
-        npx playwright@1.62.0 install
+          npx playwright@1.62.0 install
+          npm install
 
       - name: Scrape
         env:
